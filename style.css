@@ -81,6 +81,7 @@ body {
         margin-top: 50px;
 
         #nav_dorpdown {
+
             /* .navbar {
                 height: 40px;
 
@@ -92,16 +93,18 @@ body {
                     }
                 }
             } */
-             nav{
+            nav {
                 height: 30px;
                 background-color: #232F3E;
                 color: aliceblue;
-                p{
+
+                p {
                     font-size: large;
                     margin-left: 10px;
                 }
-             }
+            }
         }
+
         #highlighter {
             background-color: white;
             display: flex;
@@ -150,6 +153,7 @@ body {
         .container-fluid {
             /* background-color: black; */
             padding: 0px;
+
             #carousel {
                 .carousel {
                     height: 200px;
@@ -172,6 +176,63 @@ body {
                     }
                 }
 
+            }
+        }
+
+        #container_sale {
+            margin: 0;
+            padding: 0;
+            border: 1px solid;
+            h2 {
+                display: flex;
+                justify-content: center;
+                flex-direction: wrap;
+                align-items: center;
+                height: auto;
+            }
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                margin: 0;
+                padding: 0;
+
+                .card {
+                    /* border: 2px solid; */
+                    border-radius: 15px;
+                    height: 310px;
+                    width: 200px;
+                    margin-top: 20px;
+                    overflow: hidden;
+                    /* background-color: white; */
+                    transition-duration: 2s;
+
+                    .card_img {
+                        height: 50%;
+                        width: 100%;
+
+                        img {
+                            height: 100%;
+                            width: 100%;
+                            object-fit: cover;
+
+                        }
+
+                        .card_text {
+                            height: 50%;
+                            text-align: center;
+                            display: flex;
+                            justify-content: center;
+
+                            h3 {
+                                height: 80px;
+                                font-size: small;
+                            }
+
+                        }
+                    }
+                }
             }
         }
     }
